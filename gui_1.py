@@ -9,6 +9,7 @@ with open('email_classifier.pkl', 'rb') as f:
 with open('email_vectorizer.pkl', 'rb') as f:
     feature_extraction = pickle.load(f)
 
+
 def check_email():
     # Get the input text from the GUI
     input_text = text_entry.get()
